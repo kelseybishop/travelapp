@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		920415B31FD37DBC007AD09D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 920415B21FD37DBB007AD09D /* GoogleService-Info.plist */; };
 		9204F72F1FC6245000C45900 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204F72E1FC6245000C45900 /* AppDelegate.swift */; };
 		9204F7311FC6245000C45900 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9204F7301FC6245000C45900 /* ViewController.swift */; };
 		9204F7341FC6245000C45900 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9204F7321FC6245000C45900 /* Main.storyboard */; };
 		9204F7361FC6245000C45900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9204F7351FC6245000C45900 /* Assets.xcassets */; };
 		9204F7391FC6245000C45900 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9204F7371FC6245000C45900 /* LaunchScreen.storyboard */; };
+		92069EE61FC9D29700CFC176 /* DetailEatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92069EE51FC9D29700CFC176 /* DetailEatVC.swift */; };
+		92069EE81FC9D2B800CFC176 /* DetailPlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92069EE71FC9D2B800CFC176 /* DetailPlacesVC.swift */; };
+		92069F121FCE139900CFC176 /* ItemEatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92069F111FCE139900CFC176 /* ItemEatVC.swift */; };
+		92069F141FCE13AE00CFC176 /* ItemPlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92069F131FCE13AE00CFC176 /* ItemPlacesVC.swift */; };
+		92069F161FCE19C300CFC176 /* PlacesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92069F151FCE19C300CFC176 /* PlacesData.swift */; };
+		D0340399F9182D254AF543F0 /* Pods_Lisbon_Travel_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4021CF93B4CB261C20C81D69 /* Pods_Lisbon_Travel_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4021CF93B4CB261C20C81D69 /* Pods_Lisbon_Travel_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lisbon_Travel_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9C17B3A9BC49B8DC59917E /* Pods-Lisbon Travel App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lisbon Travel App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lisbon Travel App/Pods-Lisbon Travel App.release.xcconfig"; sourceTree = "<group>"; };
+		920415B21FD37DBB007AD09D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9204F72B1FC6245000C45900 /* Lisbon Travel App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lisbon Travel App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9204F72E1FC6245000C45900 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9204F7301FC6245000C45900 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		9204F7351FC6245000C45900 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9204F7381FC6245000C45900 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9204F73A1FC6245000C45900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92069EE51FC9D29700CFC176 /* DetailEatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEatVC.swift; sourceTree = "<group>"; };
+		92069EE71FC9D2B800CFC176 /* DetailPlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlacesVC.swift; sourceTree = "<group>"; };
+		92069F111FCE139900CFC176 /* ItemEatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEatVC.swift; sourceTree = "<group>"; };
+		92069F131FCE13AE00CFC176 /* ItemPlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPlacesVC.swift; sourceTree = "<group>"; };
+		92069F151FCE19C300CFC176 /* PlacesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesData.swift; sourceTree = "<group>"; };
+		98769F5CB8A4250D0BD24CEC /* Pods-Lisbon Travel App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lisbon Travel App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lisbon Travel App/Pods-Lisbon Travel App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0340399F9182D254AF543F0 /* Pods_Lisbon_Travel_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		190A4DBE4A8BE5DC7833C2BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4021CF93B4CB261C20C81D69 /* Pods_Lisbon_Travel_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9204F7221FC6245000C45900 = {
 			isa = PBXGroup;
 			children = (
 				9204F72D1FC6245000C45900 /* Lisbon Travel App */,
 				9204F72C1FC6245000C45900 /* Products */,
+				D756D2FEC6E568007FE54724 /* Pods */,
+				190A4DBE4A8BE5DC7833C2BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,29 @@
 		9204F72D1FC6245000C45900 /* Lisbon Travel App */ = {
 			isa = PBXGroup;
 			children = (
-				9204F72E1FC6245000C45900 /* AppDelegate.swift */,
+				92069F151FCE19C300CFC176 /* PlacesData.swift */,
 				9204F7301FC6245000C45900 /* ViewController.swift */,
+				92069EE51FC9D29700CFC176 /* DetailEatVC.swift */,
+				92069F111FCE139900CFC176 /* ItemEatVC.swift */,
+				92069EE71FC9D2B800CFC176 /* DetailPlacesVC.swift */,
+				92069F131FCE13AE00CFC176 /* ItemPlacesVC.swift */,
+				9204F72E1FC6245000C45900 /* AppDelegate.swift */,
 				9204F7321FC6245000C45900 /* Main.storyboard */,
 				9204F7351FC6245000C45900 /* Assets.xcassets */,
 				9204F7371FC6245000C45900 /* LaunchScreen.storyboard */,
+				920415B21FD37DBB007AD09D /* GoogleService-Info.plist */,
 				9204F73A1FC6245000C45900 /* Info.plist */,
 			);
 			path = "Lisbon Travel App";
+			sourceTree = "<group>";
+		};
+		D756D2FEC6E568007FE54724 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98769F5CB8A4250D0BD24CEC /* Pods-Lisbon Travel App.debug.xcconfig */,
+				4C9C17B3A9BC49B8DC59917E /* Pods-Lisbon Travel App.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9204F73D1FC6245000C45900 /* Build configuration list for PBXNativeTarget "Lisbon Travel App" */;
 			buildPhases = (
+				A3CABC713FADB617CA49A5F7 /* [CP] Check Pods Manifest.lock */,
 				9204F7271FC6245000C45900 /* Sources */,
 				9204F7281FC6245000C45900 /* Frameworks */,
 				9204F7291FC6245000C45900 /* Resources */,
+				D81F0D8D18269993D43F753F /* [CP] Embed Pods Frameworks */,
+				602F9D976D32A6630BD23442 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +169,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9204F7391FC6245000C45900 /* LaunchScreen.storyboard in Resources */,
+				920415B31FD37DBC007AD09D /* GoogleService-Info.plist in Resources */,
 				9204F7361FC6245000C45900 /* Assets.xcassets in Resources */,
 				9204F7341FC6245000C45900 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +177,100 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		602F9D976D32A6630BD23442 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lisbon Travel App/Pods-Lisbon Travel App-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseGoogleAuthUI.bundle,
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lisbon Travel App/Pods-Lisbon Travel App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3CABC713FADB617CA49A5F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lisbon Travel App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D81F0D8D18269993D43F753F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lisbon Travel App/Pods-Lisbon Travel App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lisbon Travel App/Pods-Lisbon Travel App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9204F7271FC6245000C45900 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9204F7311FC6245000C45900 /* ViewController.swift in Sources */,
+				92069F141FCE13AE00CFC176 /* ItemPlacesVC.swift in Sources */,
+				92069F161FCE19C300CFC176 /* PlacesData.swift in Sources */,
+				92069EE61FC9D29700CFC176 /* DetailEatVC.swift in Sources */,
 				9204F72F1FC6245000C45900 /* AppDelegate.swift in Sources */,
+				92069EE81FC9D2B800CFC176 /* DetailPlacesVC.swift in Sources */,
+				92069F121FCE139900CFC176 /* ItemEatVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +405,7 @@
 		};
 		9204F73E1FC6245000C45900 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98769F5CB8A4250D0BD24CEC /* Pods-Lisbon Travel App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +421,7 @@
 		};
 		9204F73F1FC6245000C45900 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9C17B3A9BC49B8DC59917E /* Pods-Lisbon Travel App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
